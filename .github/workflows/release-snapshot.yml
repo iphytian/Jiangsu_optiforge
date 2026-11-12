@@ -1,0 +1,44 @@
+name: Monthly public snapshot
+
+on:
+  schedule:
+    # 01:00 UTC on the 1st = 09:00 Asia/Shanghai
+    - cron: "0 1 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    name: Create monthly release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate and regenerate
+        run: |
+          python3 scripts/validate_data.py
+          python3 scripts/build_docs.py
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="snapshot-$(date -u +%Y%m)"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; nothing to do."
+            exit 0
+          fi
+          gh release create "$TAG" \
+            data/milestones.csv \
+            docs/milestones.md \
+            docs/notices.md \
+            --title "公开快照 $TAG" \
+            --notes "本项目公开通知和六个公开节点的月度快照。"

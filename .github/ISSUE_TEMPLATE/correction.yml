@@ -1,0 +1,40 @@
+name: 更正 / 补充
+description: 指出公开页面中的错误、失效链接或需要补充的公开信息。
+title: "[更正] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > 感谢指正。请只提供公开信息，不要提交个人隐私或内部资料。
+
+  - type: input
+    id: page
+    attributes:
+      label: 页面或条目
+      description: 例如 docs/notices/...、docs/milestones.md
+      placeholder: docs/milestones.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 哪里不对？请给出正确信息和公开依据。
+    validations:
+      required: true
+
+  - type: input
+    id: evidence
+    attributes:
+      label: 公开依据链接（可选）
+      description: 只填写可公开访问的链接。
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我确认所提供的信息来自公开来源，不含个人隐私或内部资料。
+          required: true

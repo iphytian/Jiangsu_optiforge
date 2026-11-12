@@ -1,0 +1,7 @@
+# 复制为 .github/CODEOWNERS 后，把 @REPLACE-WITH-MAINTAINER 替换为实际账号或团队。
+# CODEOWNERS 只决定 review 请求，不是访问控制。
+
+* @REPLACE-WITH-MAINTAINER
+/data/ @REPLACE-WITH-MAINTAINER
+/docs/notices/ @REPLACE-WITH-MAINTAINER
+/.github/ @REPLACE-WITH-MAINTAINER

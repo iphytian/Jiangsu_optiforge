@@ -1,0 +1,35 @@
+name: Verify public index
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Verify generated docs are current
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate public data
+        run: python3 scripts/validate_data.py
+
+      - name: Rebuild docs
+        run: python3 scripts/build_docs.py
+
+      - name: Fail if generated files are stale
+        run: |
+          if ! git diff --exit-code; then
+            echo "::error::README.md 或 docs/ 下的生成文件不是最新。请在本地运行 python3 scripts/build_docs.py，提交生成结果后再推送。"
+            git diff --stat
+            exit 1
+          fi
