@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1020" width="1800" height="1020" role="img" aria-labelledby="title desc">
+<title id="title">研究内容与关键节点关系</title>
+<desc id="desc">五项研究内容、关键技术节点与项目 Gate 的公开关系图。实线箭头表示前后依赖，竖向虚线表示 Gate 时间，颜色表示研究方向。</desc>
+<defs>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0d1b2e" flood-opacity="0.08"/>
+  </filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c7466"/>
+  </marker>
+</defs>
+<rect width="1800" height="1020" fill="#f7f4ec"/>
+<g opacity="0.35" stroke="#ffffff" stroke-width="1">
+  <path d="M 0 1 H 1800 M 0 1019 H 1800"/>
+</g>
+
+<text x="70.0" y="55.0" font-size="10.5" fill="#b78b4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="2.2">PUBLIC ROADMAP / 2026—2029</text>
+<text x="70.0" y="105.0" font-size="44" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'Songti SC','Noto Serif SC',serif" letter-spacing="-1">研究内容与关键节点关系</text>
+<text x="70.0" y="136.0" font-size="13.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >五项研究内容 · 关键技术节点 · 项目 Gate</text>
+<text x="70.0" y="156.0" font-size="10" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >实线箭头表示前置/后续；竖向虚线表示 Gate 对齐；颜色表示研究方向</text>
+<line x1="70" y1="172" x2="1730" y2="172" stroke="#ded6c6" stroke-width="1"/>
+<text x="1270.0" y="70.0" font-size="9" fill="#b78b4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.6">图例 / LEGEND</text>
+<path d="M 1270 92 L 1280 102 L 1270 112 L 1260 102 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1"/>
+<text x="1288.0" y="106.0" font-size="10" fill="#0d1b2e" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >项目 Gate</text>
+<rect x="1262" y="124" width="16" height="16" rx="4" fill="#efe3cf" stroke="#b78b4a" stroke-width="1"/>
+<text x="1288.0" y="136.0" font-size="10" fill="#0d1b2e" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >阶段 / Phase</text>
+<rect x="1262" y="151" width="16" height="16" rx="4" fill="#fffdf8" stroke="#2f7f7a" stroke-width="1.2"/>
+<text x="1288.0" y="163.0" font-size="10" fill="#0d1b2e" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >关键节点</text>
+<line x1="1510" y1="98" x2="1548" y2="98" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<text x="1556.0" y="101.0" font-size="10" fill="#0d1b2e" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >依赖关系</text>
+<line x1="1510" y1="126" x2="1548" y2="126" stroke="#b78b4a" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="1556.0" y="129.0" font-size="10" fill="#0d1b2e" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >Gate 对齐</text>
+<text x="1510.0" y="155.0" font-size="10" fill="#6f6a60" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >21 节点 / 5 方向</text>
+<line x1="220.0" y1="190" x2="220.0" y2="885" stroke="#e9e1d2" stroke-width="1"/>
+<text x="220.0" y="196.0" font-size="9" fill="#a09888" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">2026</text>
+<line x1="472.1" y1="190" x2="472.1" y2="885" stroke="#e9e1d2" stroke-width="1"/>
+<text x="472.1" y="196.0" font-size="9" fill="#a09888" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">2027</text>
+<line x1="972.1" y1="190" x2="972.1" y2="885" stroke="#e9e1d2" stroke-width="1"/>
+<text x="972.1" y="196.0" font-size="9" fill="#a09888" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">2028</text>
+<line x1="1473.4" y1="190" x2="1473.4" y2="885" stroke="#e9e1d2" stroke-width="1"/>
+<text x="1473.4" y="196.0" font-size="9" fill="#a09888" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">2029</text>
+<line x1="373.4" y1="266" x2="373.4" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="470.7" y1="266" x2="470.7" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="547.4" y1="266" x2="547.4" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="961.1" y1="266" x2="961.1" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="1220.0" y1="266" x2="1220.0" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="1459.7" y1="266" x2="1459.7" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="1715.9" y1="266" x2="1715.9" y2="885" stroke="#b78b4a" stroke-width="1" stroke-dasharray="3 6" opacity="0.38"/>
+<line x1="391.4" y1="250.0" x2="452.7" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 373.4 235 L 388.4 250 L 373.4 265 L 358.4 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="373.4" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">G0</text>
+<text x="373.4" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2026.10</text>
+<line x1="488.7" y1="250.0" x2="529.4" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="459.7" y="239" width="22" height="22" rx="5" fill="#efe3cf" stroke="#b78b4a" stroke-width="1.4"/>
+<text x="470.7" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">P1</text>
+<text x="470.7" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2026.12</text>
+<line x1="565.4" y1="250.0" x2="943.1" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 547.4 235 L 562.4 250 L 547.4 265 L 532.4 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="547.4" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">G1</text>
+<text x="547.4" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.02</text>
+<line x1="979.1" y1="250.0" x2="1202.0" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 961.1 235 L 976.1 250 L 961.1 265 L 946.1 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="961.1" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">M1</text>
+<text x="961.1" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12</text>
+<line x1="1238.0" y1="250.0" x2="1441.7" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1220.0 235 L 1235.0 250 L 1220.0 265 L 1205.0 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="1220.0" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">G3</text>
+<text x="1220.0" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.06</text>
+<line x1="1477.7" y1="250.0" x2="1697.9" y2="250.0" stroke="#b78b4a" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1459.7 235 L 1474.7 250 L 1459.7 265 L 1444.7 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="1459.7" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">M2</text>
+<text x="1459.7" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12</text>
+<path d="M 1715.9 235 L 1730.9 250 L 1715.9 265 L 1700.9 250 Z" fill="#0d1b2e" stroke="#b78b4a" stroke-width="1.2"/>
+<text x="1715.9" y="224.0" font-size="10" fill="#0d1b2e" font-weight="700" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1">G5</text>
+<text x="1715.9" y="284.0" font-size="8.2" fill="#6f6a60" font-weight="500" text-anchor="middle" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2029.06</text>
+<line x1="220" y1="445" x2="1720" y2="445" stroke="#ded6c6" stroke-width="1"/>
+<rect x="70" y="362" width="3" height="56" rx="1.5" fill="#2f7f7a"/>
+<text x="82.0" y="376.0" font-size="9" fill="#2f7f7a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">C1</text>
+<text x="82.0" y="395.0" font-size="18" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >协同框架</text>
+<text x="82.0" y="413.0" font-size="9.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >决策调度</text>
+<line x1="220" y1="555" x2="1720" y2="555" stroke="#ded6c6" stroke-width="1"/>
+<rect x="70" y="472" width="3" height="56" rx="1.5" fill="#3f6fa8"/>
+<text x="82.0" y="486.0" font-size="9" fill="#3f6fa8" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">C2</text>
+<text x="82.0" y="505.0" font-size="18" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >面形检测</text>
+<text x="82.0" y="523.0" font-size="9.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >原位检测</text>
+<line x1="220" y1="665" x2="1720" y2="665" stroke="#ded6c6" stroke-width="1"/>
+<rect x="70" y="582" width="3" height="56" rx="1.5" fill="#b07a2a"/>
+<text x="82.0" y="596.0" font-size="9" fill="#b07a2a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">C3</text>
+<text x="82.0" y="615.0" font-size="18" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >磨制策略</text>
+<text x="82.0" y="633.0" font-size="9.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >全参数优化</text>
+<line x1="220" y1="775" x2="1720" y2="775" stroke="#ded6c6" stroke-width="1"/>
+<rect x="70" y="692" width="3" height="56" rx="1.5" fill="#7a5aa6"/>
+<text x="82.0" y="706.0" font-size="9" fill="#7a5aa6" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">C4</text>
+<text x="82.0" y="725.0" font-size="18" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >磨制执行</text>
+<text x="82.0" y="743.0" font-size="9.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >健康感知</text>
+<line x1="220" y1="885" x2="1720" y2="885" stroke="#ded6c6" stroke-width="1"/>
+<rect x="70" y="802" width="3" height="56" rx="1.5" fill="#4d7a4a"/>
+<text x="82.0" y="816.0" font-size="9" fill="#4d7a4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">C5</text>
+<text x="82.0" y="835.0" font-size="18" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >系统集成</text>
+<text x="82.0" y="853.0" font-size="9.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >800mm 验证</text>
+<path d="M 547.4 266 C 565.4 266 600 280 600 310 L 600 830" fill="none" stroke="#7c7466" stroke-width="1" opacity="0.65"/>
+<text x="608.0" y="326.0" font-size="8.5" fill="#6f6a60" font-weight="500" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >G1 后启动</text>
+<circle cx="600" cy="390" r="2" fill="#7c7466"/>
+<line x1="600.0" y1="390.0" x2="628.6" y2="390.0" stroke="#7c7466" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<circle cx="600" cy="500" r="2" fill="#7c7466"/>
+<line x1="600.0" y1="500.0" x2="628.6" y2="500.0" stroke="#7c7466" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<circle cx="600" cy="610" r="2" fill="#7c7466"/>
+<line x1="600.0" y1="610.0" x2="628.6" y2="610.0" stroke="#7c7466" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<circle cx="600" cy="720" r="2" fill="#7c7466"/>
+<line x1="600.0" y1="720.0" x2="628.6" y2="720.0" stroke="#7c7466" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<circle cx="600" cy="830" r="2" fill="#7c7466"/>
+<line x1="600.0" y1="830.0" x2="871.1" y2="830.0" stroke="#7c7466" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<line x1="808.6" y1="390.0" x2="871.1" y2="390.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="1051.1" y1="390.0" x2="1369.7" y2="390.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="808.6" y1="500.0" x2="871.1" y2="500.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="1051.1" y1="500.0" x2="1369.7" y2="500.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="808.6" y1="610.0" x2="871.1" y2="610.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="1051.1" y1="610.0" x2="1369.7" y2="610.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="808.6" y1="720.0" x2="871.1" y2="720.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="1051.1" y1="720.0" x2="1369.7" y2="720.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<line x1="1051.1" y1="830.0" x2="1369.7" y2="830.0" stroke="#7c7466" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node">
+  <rect x="628.6" y="361.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#2f7f7a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="629.6" y="369.0" width="3.5" height="42" rx="1.75" fill="#2f7f7a"/>
+  <text x="641.6" y="377.0" font-size="9.5" fill="#2f7f7a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C1-1</text>
+  <text x="641.6" y="395.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >重点区域与策略约束</text>
+  <text x="641.6" y="410.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.06 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="871.1" y="361.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#2f7f7a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="872.1" y="369.0" width="3.5" height="42" rx="1.75" fill="#2f7f7a"/>
+  <text x="884.1" y="377.0" font-size="9.5" fill="#2f7f7a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C1-2</text>
+  <text x="884.1" y="395.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >闭环决策与工艺切换</text>
+  <text x="884.1" y="410.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="1369.7" y="361.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#2f7f7a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="1370.7" y="369.0" width="3.5" height="42" rx="1.75" fill="#2f7f7a"/>
+  <text x="1382.7" y="377.0" font-size="9.5" fill="#2f7f7a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C1-3</text>
+  <text x="1382.7" y="395.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >协同框架指标</text>
+  <text x="1382.7" y="410.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="628.6" y="471.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#3f6fa8" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="629.6" y="479.0" width="3.5" height="42" rx="1.75" fill="#3f6fa8"/>
+  <text x="641.6" y="487.0" font-size="9.5" fill="#3f6fa8" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C2-1</text>
+  <text x="641.6" y="505.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >激光视觉与 PMD 融合</text>
+  <text x="641.6" y="520.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.06 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="871.1" y="471.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#3f6fa8" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="872.1" y="479.0" width="3.5" height="42" rx="1.75" fill="#3f6fa8"/>
+  <text x="884.1" y="487.0" font-size="9.5" fill="#3f6fa8" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C2-2</text>
+  <text x="884.1" y="505.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >抗扰检测与缺陷巡检</text>
+  <text x="884.1" y="520.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="1369.7" y="471.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#3f6fa8" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="1370.7" y="479.0" width="3.5" height="42" rx="1.75" fill="#3f6fa8"/>
+  <text x="1382.7" y="487.0" font-size="9.5" fill="#3f6fa8" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C2-3</text>
+  <text x="1382.7" y="505.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >原位检测指标</text>
+  <text x="1382.7" y="520.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="628.6" y="581.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#b07a2a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="629.6" y="589.0" width="3.5" height="42" rx="1.75" fill="#b07a2a"/>
+  <text x="641.6" y="597.0" font-size="9.5" fill="#b07a2a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C3-1</text>
+  <text x="641.6" y="615.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >瞬态模型与研磨特性</text>
+  <text x="641.6" y="630.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.06 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="871.1" y="581.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#b07a2a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="872.1" y="589.0" width="3.5" height="42" rx="1.75" fill="#b07a2a"/>
+  <text x="884.1" y="597.0" font-size="9.5" fill="#b07a2a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C3-2</text>
+  <text x="884.1" y="615.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >全参数策略生成</text>
+  <text x="884.1" y="630.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="1369.7" y="581.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#b07a2a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="1370.7" y="589.0" width="3.5" height="42" rx="1.75" fill="#b07a2a"/>
+  <text x="1382.7" y="597.0" font-size="9.5" fill="#b07a2a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C3-3</text>
+  <text x="1382.7" y="615.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >磨制策略指标</text>
+  <text x="1382.7" y="630.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="628.6" y="691.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#7a5aa6" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="629.6" y="699.0" width="3.5" height="42" rx="1.75" fill="#7a5aa6"/>
+  <text x="641.6" y="707.0" font-size="9.5" fill="#7a5aa6" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C4-1</text>
+  <text x="641.6" y="725.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >退化感知与量化</text>
+  <text x="641.6" y="740.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.06 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="871.1" y="691.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#7a5aa6" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="872.1" y="699.0" width="3.5" height="42" rx="1.75" fill="#7a5aa6"/>
+  <text x="884.1" y="707.0" font-size="9.5" fill="#7a5aa6" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C4-2</text>
+  <text x="884.1" y="725.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >故障定位与自主响应</text>
+  <text x="884.1" y="740.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="1369.7" y="691.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#7a5aa6" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="1370.7" y="699.0" width="3.5" height="42" rx="1.75" fill="#7a5aa6"/>
+  <text x="1382.7" y="707.0" font-size="9.5" fill="#7a5aa6" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C4-3</text>
+  <text x="1382.7" y="725.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >执行智能体指标</text>
+  <text x="1382.7" y="740.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="871.1" y="801.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#4d7a4a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="872.1" y="809.0" width="3.5" height="42" rx="1.75" fill="#4d7a4a"/>
+  <text x="884.1" y="817.0" font-size="9.5" fill="#4d7a4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C5-1</text>
+  <text x="884.1" y="835.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >中期原型集成</text>
+  <text x="884.1" y="850.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2027.12 · KeyTech</text>
+</g>
+<g class="node">
+  <rect x="1369.7" y="801.0" width="180" height="58" rx="10" fill="#fffdf8" stroke="#4d7a4a" stroke-width="1.2" filter="url(#soft)"/>
+  <rect x="1370.7" y="809.0" width="3.5" height="42" rx="1.75" fill="#4d7a4a"/>
+  <text x="1382.7" y="817.0" font-size="9.5" fill="#4d7a4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >C5-2</text>
+  <text x="1382.7" y="835.0" font-size="12.5" fill="#0d1b2e" font-weight="600" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >800mm 镜面与指标</text>
+  <text x="1382.7" y="850.0" font-size="8.6" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >2028.12 · KeyTech</text>
+</g>
+<text x="70.0" y="922.0" font-size="9" fill="#b78b4a" font-weight="700" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" letter-spacing="1.5">主依赖链</text>
+<text x="170.0" y="922.0" font-size="11" fill="#0d1b2e" font-weight="500" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >G0 → P1 → G1 → 关键技术验证 → M1 → G3 → 指标验证 → M2 → G5</text>
+<text x="70.0" y="955.0" font-size="9" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >G0 启动 · P1 方案与接口冻结 · G1 总体方案评审 · M1 中期里程碑 · G3 集成联调 · M2 指标达成 · G5 项目验收</text>
+<line x1="70" y1="968" x2="1730" y2="968" stroke="#ded6c6" stroke-width="1"/>
+<text x="70.0" y="990.0" font-size="8.5" fill="#6f6a60" font-weight="400" text-anchor="start" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >公开版 · 仅含节点、日期与依赖关系 · 不含个人与内部信息</text>
+<text x="1730.0" y="990.0" font-size="8.5" fill="#6f6a60" font-weight="500" text-anchor="end" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" >01 / 01</text>
+</svg>

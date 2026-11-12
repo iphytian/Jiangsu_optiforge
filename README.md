@@ -44,6 +44,10 @@
 
 完整说明见 [docs/milestones.md](docs/milestones.md)。五项研究内容的关键技术与节点见 [docs/research-milestones.md](docs/research-milestones.md)。公开看板只展示阶段门、研究节点和公开交付物，不展示任务明细、风险清单和评审意见。
 
+![研究内容与关键节点关系](docs/assets/project-roadmap.svg)
+
+[查看原图](docs/assets/project-roadmap.svg)
+
 ## 最新通知
 
 <!-- LATEST_NOTICES:START -->
@@ -70,10 +74,12 @@ data/milestones.csv       # 六个公开节点
 docs/about.md             # 项目概览
 docs/milestones.md        # 自动生成
 docs/research-milestones.md # 研究内容、关键技术与节点
+docs/assets/project-roadmap.svg # 关系图
 docs/notices.md           # 自动生成
 docs/notices/             # 公开通知原文
 scripts/validate_data.py  # 公开性与字段校验
 scripts/build_docs.py     # 生成索引与 README 统计
+scripts/build_roadmap_svg.py # 生成关系图
 .github/ISSUE_TEMPLATE/   # 提交通知、更正
 .github/workflows/        # 校验、重建、月度快照
 ```
