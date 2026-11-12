@@ -44,11 +44,15 @@ Issue 表单引用了 `submission`、`notice` 和 `correction`；如果标签不
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
-| Gate | Text | G0/G1/M1/G3/M2/G5 |
+| Gate | Text | G0/G1/M1/G3/M2/G5；研究节点可留空 |
+| Workstream | Text | 协同框架 / 面形检测 / 磨制策略 / 磨制执行 / 系统集成 / 项目管理 |
+| NodeType | Text | Gate / Phase / KeyTech |
+| Phase | Text | P1—P6 |
 | Target date | Date | 计划日期 |
 | Status | Single select | Planned / Next / Done |
+| Deliverable | Text | 公开交付物类型 |
 
-6 个条目：
+6 个 Gate 条目：
 
 | Gate | 名称 | 日期 | 状态 |
 |---|---|---|---|
@@ -58,6 +62,8 @@ Issue 表单引用了 `submission`、`notice` 和 `correction`；如果标签不
 | G3 | 集成联调完成 | 2028-06-30 | Planned |
 | M2 | 主要指标达成 | 2028-12-22 | Planned |
 | G5 | 项目验收 | 2029-06-27 | Planned |
+
+研究内容节点见 `docs/research-milestones.md`。看板建议按 `Workstream` 增加 14—16 个研究节点和 1 个 P1 方案冻结节点。
 
 如果看板未关联仓库：
 

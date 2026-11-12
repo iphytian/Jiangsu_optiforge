@@ -55,7 +55,7 @@
 ## 公开信息说明
 
 本页只介绍项目的公开概况。任务分解、预算、风险、评审意见和未公开事项不在本仓库。  
-公开通知见 [notices.md](notices.md)，公开节点见 [milestones.md](milestones.md)。
+公开通知见 [notices.md](notices.md)，公开节点见 [milestones.md](milestones.md)，研究内容与关键节点见 [research-milestones.md](research-milestones.md)。
 
 ## 联系
 

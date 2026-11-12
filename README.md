@@ -11,6 +11,7 @@
 | 项目概览 | [docs/about.md](docs/about.md) |
 | 项目动态 | [docs/notices.md](docs/notices.md) |
 | 关键节点 | [docs/milestones.md](docs/milestones.md) |
+| 研究内容与关键节点 | [docs/research-milestones.md](docs/research-milestones.md) |
 | 公开看板 | [OptiForge_Public_Roadmap](https://github.com/users/iphytian/projects/1) |
 | 提交公开通知 | Issues → New issue → **提交公开通知** |
 | 更正/补充 | Issues → New issue → **更正/补充** |
@@ -41,7 +42,7 @@
 | G5 | 项目验收 | 2029-06-27 | ○ 计划 |
 <!-- MILESTONES:END -->
 
-完整说明见 [docs/milestones.md](docs/milestones.md)。公开看板只展示六个阶段门/里程碑，不展示任务明细、风险清单和评审意见。
+完整说明见 [docs/milestones.md](docs/milestones.md)。五项研究内容的关键技术与节点见 [docs/research-milestones.md](docs/research-milestones.md)。公开看板只展示阶段门、研究节点和公开交付物，不展示任务明细、风险清单和评审意见。
 
 ## 最新通知
 
@@ -68,6 +69,7 @@
 data/milestones.csv       # 六个公开节点
 docs/about.md             # 项目概览
 docs/milestones.md        # 自动生成
+docs/research-milestones.md # 研究内容、关键技术与节点
 docs/notices.md           # 自动生成
 docs/notices/             # 公开通知原文
 scripts/validate_data.py  # 公开性与字段校验
