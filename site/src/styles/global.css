@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-subset.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0100-024F, U+0259, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2190-21FF, U+2200-22FF;
+}
+
+@theme {
+  --font-sans: 'MiSans', 'SimHei', 'Microsoft YaHei', 'Heiti SC', 'PingFang SC', sans-serif;
+  --font-display: 'MiSans', 'SimHei', 'Microsoft YaHei', 'Heiti SC', 'PingFang SC', sans-serif;
+}
+
+:root {
+  --font-body: 'MiSans', 'STZhongsong', '华文中宋', 'SimSun', 'Songti SC', serif;
+  --font-heading: 'MiSans', 'SimHei', 'Microsoft YaHei', 'Heiti SC', 'PingFang SC', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  @apply text-gray-800 bg-white antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+nav,
+button {
+  font-family: var(--font-heading);
+  letter-spacing: 0.01em;
+}
+
+html[lang='zh'] [data-lang='en'],
+html[lang='en'] [data-lang='zh'] {
+  display: none !important;
+}
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-50;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Mobile Menu specific scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 rounded-full;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 2rem 0 0.85rem;
+  color: #111827;
+}
+
+.prose h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.6rem;
+  color: #111827;
+}
+
+.prose p {
+  margin: 0.8rem 0;
+  line-height: 1.9;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0.8rem 0;
+  padding-left: 1.4rem;
+}
+
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin: 0.35rem 0; line-height: 1.8; }
+.prose strong { font-weight: 700; color: #111827; }

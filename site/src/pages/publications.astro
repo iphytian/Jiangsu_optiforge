@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PublicationItem from '../components/PublicationItem.astro';
+import { getCollection } from 'astro:content';
+import { EN } from '../i18n/content';
+
+const allPapers = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
+const years = [...new Set(allPapers.map(p => p.data.year))];
+---
+
+<Layout title="文章" titleEn="Publications">
+  <div class="max-w-4xl mx-auto px-4 py-12 sm:py-20">
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4" data-i18n-key="nav.publications">文章</h1>
+      <p class="text-lg text-gray-600">
+        <span data-lang="zh">本项目立项后发表的期刊与会议文章。只展示已公开、可引用的项目成果。</span>
+        <span data-lang="en">{EN.pages.publicationsDesc}</span>
+      </p>
+    </div>
+
+    <div class="space-y-12">
+      {years.map(year => (
+        <div class="relative">
+          <div class="sticky top-20 z-10 bg-white/90 backdrop-blur py-2 mb-4 border-b border-gray-100">
+            <h2 class="text-2xl font-bold text-gray-900">{year}</h2>
+          </div>
+          <div class="space-y-2">
+            {allPapers.filter(p => p.data.year === year).map(paper => (
+              <PublicationItem entry={paper} />
+            ))}
+          </div>
+        </div>
+      ))}
+      
+      {allPapers.length === 0 && (
+        <div class="text-center py-16 border border-dashed border-gray-200 rounded-xl">
+        <p class="text-gray-500"><span data-lang="zh">项目文章将在这里发布。</span><span data-lang="en">{EN.pages.publicationsEmptyTitle}</span></p>
+        <p class="text-sm text-gray-400 mt-2"><span data-lang="zh">当前尚无可公开的项目文章。</span><span data-lang="en">{EN.pages.publicationsEmptyText}</span></p>
+      </div>
+      )}
+    </div>
+  </div>
+</Layout>
