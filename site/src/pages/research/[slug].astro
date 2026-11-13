@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { EN } from '../../i18n/content';
+import { withBase } from '../../utils/url';
 
 export async function getStaticPaths() {
   const researchAreas = await getCollection('research');
@@ -19,7 +20,7 @@ const en = (EN.research as Record<string, { title: string; description: string; 
 
 <Layout title={area.data.title} titleEn={en?.title}>
   <article class="max-w-4xl mx-auto px-4 py-12 sm:py-20">
-    <a href="/research" class="inline-flex items-center text-sm text-gray-500 hover:text-blue-600 mb-8 transition-colors">
+    <a href={withBase('/research')} class="inline-flex items-center text-sm text-gray-500 hover:text-blue-600 mb-8 transition-colors">
       &larr; <span data-lang="zh">返回研究方向</span><span data-lang="en">{EN.pages.backToResearch}</span>
     </a>
 

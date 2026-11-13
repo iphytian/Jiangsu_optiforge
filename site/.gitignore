@@ -39,7 +39,3 @@ coverage/
 
 # Vercel
 .vercel/
-
-# local build/debug
-.tmp/
-preview/

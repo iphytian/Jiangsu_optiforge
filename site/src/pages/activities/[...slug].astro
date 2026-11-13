@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { Calendar, ArrowLeft } from 'lucide-react';
 import { EN } from '../../i18n/content';
+import { withBase } from '../../utils/url';
 
 export async function getStaticPaths() {
   const activities = await getCollection('activities');
@@ -20,7 +21,7 @@ const en = (EN.activities as Record<string, { title: string; description: string
 
 <Layout title={activity.data.title} titleEn={en?.title}>
   <article class="max-w-4xl mx-auto px-4 py-12 sm:py-20">
-    <a href="/activities" class="inline-flex items-center text-sm text-gray-500 hover:text-blue-600 mb-8 transition-colors">
+    <a href={withBase('/activities')} class="inline-flex items-center text-sm text-gray-500 hover:text-blue-600 mb-8 transition-colors">
       <ArrowLeft className="w-4 h-4 mr-1" />
       <span data-lang="zh">返回项目进展</span><span data-lang="en">{EN.pages.backToActivities}</span>
     </a>

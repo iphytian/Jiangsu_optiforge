@@ -5,7 +5,11 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 
 // https://astro.build/config
+const base = process.env.SITE_BASE || '/';
+
 export default defineConfig({
+  site: 'https://iphytian.github.io',
+  base,
   compressHTML: true,
   build: {
     inlineStylesheets: 'always',
