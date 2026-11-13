@@ -173,6 +173,6 @@ export const EN = {
     backToResearch: 'Back to Research',
     backToActivities: 'Back to Activities',
     footerInfo: 'Public project information · 2026–2029',
-    imageCredits: 'Image credits',
+    imageCredits: 'Cover image',
   },
 };
