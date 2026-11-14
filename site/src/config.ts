@@ -27,7 +27,7 @@ export const SITE = {
 
   nav: [
     { text: '首页', link: '/', key: 'home' },
-    { text: '研究方向', link: '/research', key: 'research' },
+    { text: '项目简介', link: '/about', key: 'about' },
     { text: '项目进展', link: '/activities', key: 'activities' },
     { text: '文章', link: '/publications', key: 'publications' },
     { text: '专利', link: '/patents', key: 'patents' },

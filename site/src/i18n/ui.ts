@@ -8,6 +8,7 @@ export const ui = {
   en: {
     'nav.home': 'Home',
     'nav.research': 'Research',
+    'nav.about': 'Project',
     'nav.achievements': 'Achievements',
     'nav.publications': 'Publications',
     'nav.patents': 'Patents',
@@ -100,6 +101,7 @@ export const ui = {
   zh: {
     'nav.home': '首页',
     'nav.research': '研究方向',
+    'nav.about': '项目简介',
     'nav.achievements': '科研成果',
     'nav.publications': '文章',
     'nav.patents': '专利',

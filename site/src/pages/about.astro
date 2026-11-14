@@ -1,0 +1,180 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import { EN } from '../i18n/content';
+
+const researchAreas = (await getCollection('research')).sort((a, b) => a.data.order - b.data.order);
+const enResearch = EN.research as Record<string, { title: string; description: string }>;
+const stats = [
+  { value: '5', zh: '研究方向', en: 'Research directions' },
+  { value: '21', zh: '公开节点', en: 'Public milestones' },
+  { value: '3', zh: '承担单位', en: 'Institutions' },
+  { value: '36', zh: '个月', en: 'Months' },
+];
+const units = [
+  {
+    zh: '中国科学院南京天文光学技术研究所',
+    en: 'Nanjing Institute of Astronomical Optics & Technology, CAS',
+    roleZh: '牵头单位',
+    roleEn: 'Lead institution',
+  },
+  {
+    zh: '中国科学院工业人工智能研究所',
+    en: 'Institute of Industrial Artificial Intelligence, CAS',
+    roleZh: '合作单位',
+    roleEn: 'Partner',
+  },
+  {
+    zh: '中科院南京耐尔思光电仪器有限公司',
+    en: 'Nanjing Nair Optoelectronic Instruments Co., Ltd.',
+    roleZh: '合作单位',
+    roleEn: 'Partner',
+  },
+];
+const applications = [
+  { zh: '大型望远镜主镜', en: 'Large telescope primary mirrors' },
+  { zh: '航天遥感成像', en: 'Spaceborne remote sensing' },
+  { zh: '高能激光装备', en: 'High-energy laser systems' },
+  { zh: '深空探测与空间光学', en: 'Deep-space exploration and space optics' },
+];
+---
+
+<Layout title="项目简介" titleEn="Project">
+  <div class="max-w-7xl mx-auto px-4 py-12 sm:py-20">
+    <header class="max-w-3xl mx-auto text-center mb-16">
+      <p class="text-[11px] font-medium tracking-[0.22em] text-gold mb-4">PROJECT / 01</p>
+      <h1 class="text-4xl font-bold text-gray-900 mb-5">
+        <span data-lang="zh">项目简介</span>
+        <span data-lang="en">Project</span>
+      </h1>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        <span data-lang="zh">面向航天遥感、深空探测、高能激光与大型望远镜应用，以多智能体协同推动大口径光学镜面制造与检测的智能化。</span>
+        <span data-lang="en">Applying multi-agent coordination to the intelligent manufacturing and inspection of large optical mirrors for spaceborne remote sensing, deep-space exploration, high-energy lasers and large telescopes.</span>
+      </p>
+    </header>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 border-y border-gray-100 divide-x divide-gray-100 mb-20">
+      {stats.map(item => (
+        <div class="px-5 py-7 sm:px-8">
+          <p class="text-3xl font-bold text-gray-900">{item.value}</p>
+          <p class="mt-1 text-sm text-gray-500">
+            <span data-lang="zh">{item.zh}</span>
+            <span data-lang="en">{item.en}</span>
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <section class="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 mb-24">
+      <div>
+        <p class="text-[11px] font-medium tracking-[0.22em] text-gold mb-4">BACKGROUND</p>
+        <h2 class="text-3xl font-bold text-gray-900">
+          <span data-lang="zh">从经验驱动，<br />到多智能体协同。</span>
+          <span data-lang="en">From experience to multi-agent coordination.</span>
+        </h2>
+      </div>
+      <div class="space-y-5 text-gray-600 leading-8">
+        <p>
+          <span data-lang="zh">大口径光学镜面是大型望远镜、航天遥感、高能激光与深空探测装备的核心元件。其制造跨越铣磨、研磨、抛光与多模态检测，长期依赖专家经验，检测与加工之间反馈滞后，多工序协同困难。</span>
+          <span data-lang="en">Large optical mirrors are core components of large telescopes, spaceborne remote sensing, high-energy lasers and deep-space exploration systems. Their fabrication spans milling, grinding, polishing and multi-modal inspection, and has long depended on expert experience, with delayed feedback between inspection and fabrication and difficult coordination across processes.</span>
+        </p>
+        <p>
+          <span data-lang="zh">项目面向“人工智能 + 精密制造”，以多智能体协同框架为中枢，打通面形检测、磨制策略、磨制执行与决策调度，形成可运行、可验证、可复制的智能制检系统。</span>
+          <span data-lang="en">The project combines AI with precision manufacturing. A multi-agent coordination framework connects mirror metrology, polishing strategy, polishing execution and decision scheduling, forming a runnable, verifiable and reproducible intelligent manufacturing and inspection system.</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="mb-24">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-5 mb-10">
+        <div>
+          <p class="text-[11px] font-medium tracking-[0.22em] text-gold mb-4">RESEARCH</p>
+          <h2 class="text-3xl font-bold text-gray-900">
+            <span data-lang="zh">五项研究方向</span>
+            <span data-lang="en">Five research directions</span>
+          </h2>
+        </div>
+        <p class="max-w-xl text-gray-600 text-sm leading-7 md:text-right">
+          <span data-lang="zh">五个方向共同构成“检测—策略—执行—决策”闭环，并在真实镜面与真实机床上完成系统集成。</span>
+          <span data-lang="en">Together the five directions form an inspection–strategy–execution–decision loop, integrated and verified on real mirrors and real machine tools.</span>
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {researchAreas.map((area, index) => {
+          const slug = area.id.replace(/\.[^/.]+$/, '');
+          const en = enResearch[slug];
+          return (
+            <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300">
+              {area.data.cover && (
+                <div class="h-48 overflow-hidden bg-gray-100">
+                  <Image
+                    src={area.data.cover}
+                    alt={area.data.title}
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    quality={80}
+                    format="webp"
+                    widths={[480, 720]}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </div>
+              )}
+              <div class="p-6">
+                <p class="text-[10px] font-medium tracking-[0.18em] text-gold mb-3">{String(index + 1).padStart(2, '0')}</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                  <span data-lang="zh">{area.data.title}</span>
+                  <span data-lang="en">{en?.title}</span>
+                </h3>
+                <p class="text-gray-600 text-sm leading-7">
+                  <span data-lang="zh">{area.data.description}</span>
+                  <span data-lang="en">{en?.description}</span>
+                </p>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 border-t border-gray-100 pt-12 mb-20">
+      <div>
+        <p class="text-[11px] font-medium tracking-[0.22em] text-gold mb-4">APPLICATIONS</p>
+        <h2 class="text-3xl font-bold text-gray-900">
+          <span data-lang="zh">面向国家需求</span>
+          <span data-lang="en">Serving national needs</span>
+        </h2>
+      </div>
+      <div class="flex flex-wrap gap-3 content-start">
+        {applications.map(item => (
+          <span class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700 bg-gray-50">
+            <span data-lang="zh">{item.zh}</span>
+            <span data-lang="en">{item.en}</span>
+          </span>
+        ))}
+      </div>
+    </section>
+
+    <section class="border-t border-gray-100 pt-12">
+      <p class="text-[11px] font-medium tracking-[0.22em] text-gold mb-4">AFFILIATIONS</p>
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">
+        <span data-lang="zh">联合承担</span>
+        <span data-lang="en">Project team</span>
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        {units.map(unit => (
+          <div class="border-t border-gray-200 pt-5">
+            <p class="text-[10px] tracking-[0.16em] text-gray-400 mb-3">
+              <span data-lang="zh">{unit.roleZh}</span>
+              <span data-lang="en">{unit.roleEn}</span>
+            </p>
+            <p class="text-base font-medium text-gray-900 leading-7">
+              <span data-lang="zh">{unit.zh}</span>
+              <span data-lang="en">{unit.en}</span>
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Layout>

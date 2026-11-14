@@ -10,11 +10,16 @@ interface Props {
   title?: string;
   titleEn?: string;
   description?: string;
+  fullTitle?: boolean;
 }
 
-const { title, titleEn, description = SITE.description } = Astro.props;
-const pageTitle = title ? `${title} | ${SITE.labName}` : `${SITE.labName} - ${SITE.university}`;
-const pageTitleEn = titleEn ? `${titleEn} | ${EN.project.short}` : `${EN.project.short} - ${EN.project.team}`;
+const { title, titleEn, description = SITE.description, fullTitle = false } = Astro.props;
+const pageTitle = fullTitle
+  ? (title || SITE.labName)
+  : (title ? `${title} | ${SITE.labName}` : `${SITE.labName} - ${SITE.university}`);
+const pageTitleEn = fullTitle
+  ? (titleEn || EN.project.short)
+  : (titleEn ? `${titleEn} | ${EN.project.short}` : `${EN.project.short} - ${EN.project.team}`);
 
 // Define dynamic OG Image
 // If it's the homepage, use index.png. Otherwise, try to map the path to a slug.

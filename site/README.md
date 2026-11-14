@@ -3,7 +3,7 @@
 基于 [Scholar-Lite](https://github.com/fjd2004711/scholar-lite) 模板改造的项目公开网站，使用 Astro 5 + Tailwind CSS 4。
 
 - 中文 / English 双语切换，入口在页面右上角
-- 首页、研究方向、项目进展、文章、专利、图片来源
+- 首页、项目简介（含五项研究方向）、项目进展、文章、专利、封面图片
 - 文章/专利只发布立项后的公开成果；当前为空状态
 - 中文标题使用系统黑体，中文正文使用系统宋体；英文使用 MiSans
 - 图片来源与许可见 `/credits/`
@@ -30,7 +30,7 @@ npm run preview
 |---|---|
 | 项目名称、Hero、导航 | `src/config.ts` |
 | 中文/英文正文 | `src/i18n/content.ts`、`src/content/` |
-| 研究方向 | `src/content/research/` |
+| 项目简介中的研究方向 | `src/content/research/` |
 | 项目动态 | `src/content/activities/` |
 | 项目节点 | `src/content/news/` |
 | 文章 | `src/content/publications/` |
