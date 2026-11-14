@@ -22,7 +22,7 @@
 
 <!-- STATS:START -->
 - 公开节点：**6** 个
-- 公开通知：**5** 条
+- 公开通知：**4** 条
 - 最近更新：**2026-11-11**
 <!-- STATS:END -->
 
@@ -54,7 +54,7 @@
 <!-- LATEST_NOTICES:START -->
 - **2026-11-11** · [项目公开信息仓库上线](docs/notices/2026-11-11-public-repository.md)
 - **2026-11-05** · [G1 总体方案评审调整至 2027 年 2 月](docs/notices/2026-11-05-g1-review.md)
-- **2026-11-02** · [项目管理办法与流程 V1.0 发布](docs/notices/2026-11-02-management-framework.md)
+- **2026-10-21** · [项目启动会暨 2026 年第一次工作会议召开](docs/notices/2026-10-21-kickoff.md)
 <!-- LATEST_NOTICES:END -->
 
 全部通知见 [docs/notices.md](docs/notices.md)。

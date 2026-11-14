@@ -122,12 +122,6 @@ export const EN = {
         'The meeting covered execution rules, indicator breakdown, task allocation, data acquisition and verification sites.',
       body: '<p>The project follows an execution framework based on the task book, a three-tier plan and five management mechanisms. Overall scheme and interface definition were identified as immediate priorities.</p>',
     },
-    '2026-11-management': {
-      title: 'Management methods and workflow V1.0 released',
-      description:
-        'Organisational responsibilities, three-tier planning, stage gates, reporting, change control and risk management are defined.',
-      body: '<p>The management methods cover the full lifecycle from kick-off to acceptance. WBS identifiers are the single task source, with monthly reconciliation of task completion, indicators and budgets.</p>',
-    },
     '2026-11-repository': {
       title: 'Public information repository launched',
       description:
